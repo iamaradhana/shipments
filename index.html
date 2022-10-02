@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>shipments</title>
+    <!--material cdn-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+
+    <!-- stylesheet -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <style type="text/css">
+      .thead{
+        font-size: 12px;
+        padding: auto;
+        margin: auto;
+      }
+    </style>
+
+    <script></script>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="./logo.jpg" />
+            <!-- <h2>satsafeti</span></h2> -->
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp">close</span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="#">
+            <span class="material-icons-sharp">grid_view</span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#" class="active">
+            <span class="material-icons-sharp">person_outline</span>
+            <h3>Customers</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">receipt_long </span>
+            <h3>Orders</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">report_gmailerrorred</span>
+            <h3>Reports</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">settings</span>
+            <h3>Settings</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">add</span>
+            <h3>Add Product</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">logout</span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- end of aside -->
+      <main>
+        <h1>Dashboard</h1>
+
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <!-- ending -->
+          <div class="vehicles">
+            <span class="material-icons-sharp">local_shipping</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Vehicles</h3>
+                <h1>XYZ</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>80%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hours</small>
+          </div>
+          <!-- ending part1 -->
+          <div class="shipments">
+            <span class="material-icons-sharp">local_shipping</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Shipments</h3>
+                <h1>XYZ</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                
+                <div class="number">
+                  <p>75%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hours</small>
+          </div>
+          <!-- ending part2 -->
+          <div class="machines">
+            <span class="material-icons-sharp">precision_manufacturing</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total machines</h3>
+                <h1>XYZ</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>90%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hours</small>
+          </div>
+          <!-- end of insights -->
+          </div class="details">
+          <div class="details">
+            <h2>Details Table</h2>
+            <table class="table">
+              <thead >
+                <tr class="thead">
+                  <th>Key Bay No.</th>
+                  <th>Type</th>
+                  <th>No. of Vehicles</th>
+                  <th>Duration</th>
+                  <th># Problems</th>
+                  <th>Shipments</th>
+                  <th>Wrong stacking</th>
+                  <th>Mishandling</th>
+                  <th>Throwing Shipments</th>
+                  <th>Damaged</th>
+                  <th>Blue Box</th>
+                  <th>Red Box</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Loading</td>
+                  <td>4</td>
+                  <td>1030 - 1200</td>
+                  <td>17</td>
+                  <td>17</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Unloading</td>
+                  <td>4</td>
+                  <td>1200 - 1300</td>
+                  <td>17</td>
+                  <td>17</td>
+                  <td>1</td>
+                  <td>5</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>5</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Loading</td>
+                  <td>4</td>
+                  <td>1310 - 1400</td>
+                  <td>20</td>
+                  <td>20</td>
+                  <td>4</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>4</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Loading</td>
+                  <td>4</td>
+                  <td>1430 - 1600</td>
+                  <td>14</td>
+                  <td>14</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>3</td> 
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Unloading</td>
+                  <td>10</td>
+                  <td>1700 - 1800</td>
+                  <td>20</td>
+                  <td>20</td>
+                  <td>2</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Unloading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Unloading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Unloading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="#">Show All</a>
+          </div>     
+      </main>
+      <!-- just end -->
+      <div class="right">
+        <div class="top">
+          <button id="menu-btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+          <div class="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p><b>Admin</b></p>
+              <small class="text-muted"></small>
+            </div>
+            <div class="profile-photo">
+              <img src="./1.jpg" >
+            </div>
+          </div>
+        </div>
+        <!-- end of top -->
+        <div class="recent-updates">
+          <h2>Analytics Performance</h2>
+          <div class="updates">
+            <div class="update">
+              <div class="message">
+                <ul>
+                  <li><b>Multi-Violation Detection</b></li>
+                  <li>Progressive Loading and Unloading</li>
+                  <li>2 Vehicle on single bay</li>
+                  <li>Smoke and Fire Detection</li>
+                  <li>Throwing of Shipments</li>
+                  <li>Opening of Shipments</li>
+                  <li>Damage Shipments</li>
+                  <li>Improper Stacking</li>
+                  <li>Stacking without pallet</li>
+                  <li>Shipment Count</li>
+                  <li>Volumetric Weight of Shipments</li>
+                  <li>Vehicle Number Capture</li>
+               </ul>
+                
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script> 
+  </body>
+</html> 
